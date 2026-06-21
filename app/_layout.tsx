@@ -31,8 +31,8 @@ export default function RootLayout() {
   useFrameworkReady();
 
   return (
-    <BlinkProvider config={config} defaultTheme="dark">
-      <Theme name="dark">
+    <BlinkProvider config={config} defaultTheme="light">
+      <Theme name="light">
         <QueryClientProvider client={queryClient}>
           <BlinkToastProvider>
             <WebStyleReset />

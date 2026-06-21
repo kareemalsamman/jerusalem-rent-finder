@@ -71,3 +71,183 @@ Logs for your project will appear below.[2m Press Ctrl+C to exit.[22m
 [32m[1mWeb[22m Bundled [39m[2m25485ms[22m[0m[2m node_modules/expo-router/entry.js (1 module)[22m[0m
 [32m[1mWeb[22m Bundled [39m[2m5192ms[22m[0m[2m node_modules/expo-router/entry.js (1 module)[22m[0m
 [7m[37m[1m LOG [22m[39m[27m [web] Logs will appear in the browser console
+[1mWeb[22m [0m[2mnode_modules/expo-router/[22m[0m[1mentry.js[22m [47m[37m░░░░░░░░░░░░░░░░[39m[49m[1m  0.0% [22m[2m(0/1)[22m
+[32m[1mWeb[22m Bundled [39m[2m154ms[22m[0m[2m node_modules/expo-router/entry.js (1 module)[22m[0m
+[7m[37m[1m LOG [22m[39m[27m [web] Logs will appear in the browser console
+[31m[7m[1m ERROR [22m[27m[39m SyntaxError: /home/user/app/(tabs)/index.tsx: Adjacent JSX elements must be wrapped in an enclosing tag. Did you want a JSX fragment <>...</>? (167:4)
+
+[0m [90m 165 |[39m         [33m<[39m[33m/[39m[33mScrollView[39m[33m>[39m
+ [90m 166 |[39m       [33m<[39m[33m/[39m[33mView[39m[33m>[39m
+[31m[1m>[22m[39m[90m 167 |[39m     [33m<[39m[33m/[39m[33mTheme[39m[33m>[39m
+ [90m     |[39m     [31m[1m^[22m[39m
+ [90m 168 |[39m
+ [90m 169 |[39m   )[33m;[39m
+ [90m 170 |[39m }[0m
+    at constructor (/home/user/node_modules/@babel/parser/lib/index.js:365:19)
+    at TypeScriptParserMixin.raise (/home/user/node_modules/@babel/parser/lib/index.js:6616:19)
+    at TypeScriptParserMixin.jsxParseElementAt (/home/user/node_modules/@babel/parser/lib/index.js:4754:18)
+    at TypeScriptParserMixin.jsxParseElement (/home/user/node_modules/@babel/parser/lib/index.js:4761:17)
+    at TypeScriptParserMixin.parseExprAtom (/home/user/node_modules/@babel/parser/lib/index.js:4771:19)
+    at TypeScriptParserMixin.parseExprSubscripts (/home/user/node_modules/@babel/parser/lib/index.js:11098:23)
+    at TypeScriptParserMixin.parseUpdate (/home/user/node_modules/@babel/parser/lib/index.js:11083:21)
+    at TypeScriptParserMixin.parseMaybeUnary (/home/user/node_modules/@babel/parser/lib/index.js:11063:23)
+    at TypeScriptParserMixin.parseMaybeUnary (/home/user/node_modules/@babel/parser/lib/index.js:9854:18)
+    at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/home/user/node_modules/@babel/parser/lib/index.js:10916:61)
+    at TypeScriptParserMixin.parseExprOps (/home/user/node_modules/@babel/parser/lib/index.js:10921:23)
+    at TypeScriptParserMixin.parseMaybeConditional (/home/user/node_modules/@babel/parser/lib/index.js:10898:23)
+    at TypeScriptParserMixin.parseMaybeAssign (/home/user/node_modules/@babel/parser/lib/index.js:10848:21)
+    at /home/user/node_modules/@babel/parser/lib/index.js:9792:39
+    at TypeScriptParserMixin.tryParse (/home/user/node_modules/@babel/parser/lib/index.js:6924:20)
+    at TypeScriptParserMixin.parseMaybeAssign (/home/user/node_modules/@babel/parser/lib/index.js:9792:18)
+    at /home/user/node_modules/@babel/parser/lib/index.js:10817:39
+    at TypeScriptParserMixin.allowInAnd (/home/user/node_modules/@babel/parser/lib/index.js:12443:12)
+    at TypeScriptParserMixin.parseMaybeAssignAllowIn (/home/user/node_modules/@babel/parser/lib/index.js:10817:17)
+    at TypeScriptParserMixin.parseMaybeAssignAllowInOrVoidPattern (/home/user/node_modules/@babel/parser/lib/index.js:12510:17)
+    at TypeScriptParserMixin.parseParenAndDistinguishExpression (/home/user/node_modules/@babel/parser/lib/index.js:11692:28)
+    at TypeScriptParserMixin.parseExprAtom (/home/user/node_modules/@babel/parser/lib/index.js:11348:23)
+    at TypeScriptParserMixin.parseExprAtom (/home/user/node_modules/@babel/parser/lib/index.js:4776:20)
+    at TypeScriptParserMixin.parseExprSubscripts (/home/user/node_modules/@babel/parser/lib/index.js:11098:23)
+    at TypeScriptParserMixin.parseUpdate (/home/user/node_modules/@babel/parser/lib/index.js:11083:21)
+    at TypeScriptParserMixin.parseMaybeUnary (/home/user/node_modules/@babel/parser/lib/index.js:11063:23)
+    at TypeScriptParserMixin.parseMaybeUnary (/home/user/node_modules/@babel/parser/lib/index.js:9854:18)
+    at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/home/user/node_modules/@babel/parser/lib/index.js:10916:61)
+    at TypeScriptParserMixin.parseExprOps (/home/user/node_modules/@babel/parser/lib/index.js:10921:23)
+    at TypeScriptParserMixin.parseMaybeConditional (/home/user/node_modules/@babel/parser/lib/index.js:10898:23)
+    at TypeScriptParserMixin.parseMaybeAssign (/home/user/node_modules/@babel/parser/lib/index.js:10848:21)
+    at TypeScriptParserMixin.parseMaybeAssign (/home/user/node_modules/@babel/parser/lib/index.js:9803:20)
+    at TypeScriptParserMixin.parseExpressionBase (/home/user/node_modules/@babel/parser/lib/index.js:10801:23)
+    at /home/user/node_modules/@babel/parser/lib/index.js:10797:39
+    at TypeScriptParserMixin.allowInAnd (/home/user/node_modules/@babel/parser/lib/index.js:12438:16)
+    at TypeScriptParserMixin.parseExpression (/home/user/node_modules/@babel/parser/lib/index.js:10797:17)
+    at TypeScriptParserMixin.parseReturnStatement (/home/user/node_modules/@babel/parser/lib/index.js:13159:28)
+    at TypeScriptParserMixin.parseStatementContent (/home/user/node_modules/@babel/parser/lib/index.js:12815:21)
+    at TypeScriptParserMixin.parseStatementContent (/home/user/node_modules/@babel/parser/lib/index.js:9525:18)
+    at TypeScriptParserMixin.parseStatementLike (/home/user/node_modules/@babel/parser/lib/index.js:12784:17)
+    at TypeScriptParserMixin.parseStatementListItem (/home/user/node_modules/@babel/parser/lib/index.js:12764:17)
+    at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/home/user/node_modules/@babel/parser/lib/index.js:13333:61)
+    at TypeScriptParserMixin.parseBlockBody (/home/user/node_modules/@babel/parser/lib/index.js:13326:10)
+    at TypeScriptParserMixin.parseBlock (/home/user/node_modules/@babel/parser/lib/index.js:13314:10)
+    at TypeScriptParserMixin.parseFunctionBody (/home/user/node_modules/@babel/parser/lib/index.js:12117:24)
+    at TypeScriptParserMixin.parseFunctionBodyAndFinish (/home/user/node_modules/@babel/parser/lib/index.js:12103:10)
+    at TypeScriptParserMixin.parseFunctionBodyAndFinish (/home/user/node_modules/@babel/parser/lib/index.js:9189:18)
+    at /home/user/node_modules/@babel/parser/lib/index.js:13462:12
+    at TypeScriptParserMixin.withSmartMixTopicForbiddingContext (/home/user/node_modules/@babel/parser/lib/index.js:12420:14)
+    at TypeScriptParserMixin.parseFunction (/home/user/node_modules/@babel/parser/lib/index.js:13461:10)
+[31m[7m[1m ERROR [22m[27m[39m SyntaxError: /home/user/app/(tabs)/explore.tsx: Adjacent JSX elements must be wrapped in an enclosing tag. Did you want a JSX fragment <>...</>? (173:4)
+
+[0m [90m 171 |[39m         [33m/[39m[33m>[39m
+ [90m 172 |[39m       [33m<[39m[33m/[39m[33mView[39m[33m>[39m
+[31m[1m>[22m[39m[90m 173 |[39m     [33m<[39m[33m/[39m[33mTheme[39m[33m>[39m
+ [90m     |[39m     [31m[1m^[22m[39m
+ [90m 174 |[39m   )[33m;[39m
+ [90m 175 |[39m }
+ [90m 176 |[39m[0m
+    at constructor (/home/user/node_modules/@babel/parser/lib/index.js:365:19)
+    at TypeScriptParserMixin.raise (/home/user/node_modules/@babel/parser/lib/index.js:6616:19)
+    at TypeScriptParserMixin.jsxParseElementAt (/home/user/node_modules/@babel/parser/lib/index.js:4754:18)
+    at TypeScriptParserMixin.jsxParseElement (/home/user/node_modules/@babel/parser/lib/index.js:4761:17)
+    at TypeScriptParserMixin.parseExprAtom (/home/user/node_modules/@babel/parser/lib/index.js:4771:19)
+    at TypeScriptParserMixin.parseExprSubscripts (/home/user/node_modules/@babel/parser/lib/index.js:11098:23)
+    at TypeScriptParserMixin.parseUpdate (/home/user/node_modules/@babel/parser/lib/index.js:11083:21)
+    at TypeScriptParserMixin.parseMaybeUnary (/home/user/node_modules/@babel/parser/lib/index.js:11063:23)
+    at TypeScriptParserMixin.parseMaybeUnary (/home/user/node_modules/@babel/parser/lib/index.js:9854:18)
+    at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/home/user/node_modules/@babel/parser/lib/index.js:10916:61)
+    at TypeScriptParserMixin.parseExprOps (/home/user/node_modules/@babel/parser/lib/index.js:10921:23)
+    at TypeScriptParserMixin.parseMaybeConditional (/home/user/node_modules/@babel/parser/lib/index.js:10898:23)
+    at TypeScriptParserMixin.parseMaybeAssign (/home/user/node_modules/@babel/parser/lib/index.js:10848:21)
+    at /home/user/node_modules/@babel/parser/lib/index.js:9792:39
+    at TypeScriptParserMixin.tryParse (/home/user/node_modules/@babel/parser/lib/index.js:6924:20)
+    at TypeScriptParserMixin.parseMaybeAssign (/home/user/node_modules/@babel/parser/lib/index.js:9792:18)
+    at /home/user/node_modules/@babel/parser/lib/index.js:10817:39
+    at TypeScriptParserMixin.allowInAnd (/home/user/node_modules/@babel/parser/lib/index.js:12443:12)
+    at TypeScriptParserMixin.parseMaybeAssignAllowIn (/home/user/node_modules/@babel/parser/lib/index.js:10817:17)
+    at TypeScriptParserMixin.parseMaybeAssignAllowInOrVoidPattern (/home/user/node_modules/@babel/parser/lib/index.js:12510:17)
+    at TypeScriptParserMixin.parseParenAndDistinguishExpression (/home/user/node_modules/@babel/parser/lib/index.js:11692:28)
+    at TypeScriptParserMixin.parseExprAtom (/home/user/node_modules/@babel/parser/lib/index.js:11348:23)
+    at TypeScriptParserMixin.parseExprAtom (/home/user/node_modules/@babel/parser/lib/index.js:4776:20)
+    at TypeScriptParserMixin.parseExprSubscripts (/home/user/node_modules/@babel/parser/lib/index.js:11098:23)
+    at TypeScriptParserMixin.parseUpdate (/home/user/node_modules/@babel/parser/lib/index.js:11083:21)
+    at TypeScriptParserMixin.parseMaybeUnary (/home/user/node_modules/@babel/parser/lib/index.js:11063:23)
+    at TypeScriptParserMixin.parseMaybeUnary (/home/user/node_modules/@babel/parser/lib/index.js:9854:18)
+    at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/home/user/node_modules/@babel/parser/lib/index.js:10916:61)
+    at TypeScriptParserMixin.parseExprOps (/home/user/node_modules/@babel/parser/lib/index.js:10921:23)
+    at TypeScriptParserMixin.parseMaybeConditional (/home/user/node_modules/@babel/parser/lib/index.js:10898:23)
+    at TypeScriptParserMixin.parseMaybeAssign (/home/user/node_modules/@babel/parser/lib/index.js:10848:21)
+    at TypeScriptParserMixin.parseMaybeAssign (/home/user/node_modules/@babel/parser/lib/index.js:9803:20)
+    at TypeScriptParserMixin.parseExpressionBase (/home/user/node_modules/@babel/parser/lib/index.js:10801:23)
+    at /home/user/node_modules/@babel/parser/lib/index.js:10797:39
+    at TypeScriptParserMixin.allowInAnd (/home/user/node_modules/@babel/parser/lib/index.js:12438:16)
+    at TypeScriptParserMixin.parseExpression (/home/user/node_modules/@babel/parser/lib/index.js:10797:17)
+    at TypeScriptParserMixin.parseReturnStatement (/home/user/node_modules/@babel/parser/lib/index.js:13159:28)
+    at TypeScriptParserMixin.parseStatementContent (/home/user/node_modules/@babel/parser/lib/index.js:12815:21)
+    at TypeScriptParserMixin.parseStatementContent (/home/user/node_modules/@babel/parser/lib/index.js:9525:18)
+    at TypeScriptParserMixin.parseStatementLike (/home/user/node_modules/@babel/parser/lib/index.js:12784:17)
+    at TypeScriptParserMixin.parseStatementListItem (/home/user/node_modules/@babel/parser/lib/index.js:12764:17)
+    at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/home/user/node_modules/@babel/parser/lib/index.js:13333:61)
+    at TypeScriptParserMixin.parseBlockBody (/home/user/node_modules/@babel/parser/lib/index.js:13326:10)
+    at TypeScriptParserMixin.parseBlock (/home/user/node_modules/@babel/parser/lib/index.js:13314:10)
+    at TypeScriptParserMixin.parseFunctionBody (/home/user/node_modules/@babel/parser/lib/index.js:12117:24)
+    at TypeScriptParserMixin.parseFunctionBodyAndFinish (/home/user/node_modules/@babel/parser/lib/index.js:12103:10)
+    at TypeScriptParserMixin.parseFunctionBodyAndFinish (/home/user/node_modules/@babel/parser/lib/index.js:9189:18)
+    at /home/user/node_modules/@babel/parser/lib/index.js:13462:12
+    at TypeScriptParserMixin.withSmartMixTopicForbiddingContext (/home/user/node_modules/@babel/parser/lib/index.js:12420:14)
+    at TypeScriptParserMixin.parseFunction (/home/user/node_modules/@babel/parser/lib/index.js:13461:10)
+[31m[7m[1m ERROR [22m[27m[39m SyntaxError: /home/user/app/(tabs)/favorites.tsx: Adjacent JSX elements must be wrapped in an enclosing tag. Did you want a JSX fragment <>...</>? (114:6)
+
+[0m [90m 112 |[39m           [33m<[39m[33m/[39m[33mButton[39m[33m>[39m
+ [90m 113 |[39m         [33m<[39m[33m/[39m[33mView[39m[33m>[39m
+[31m[1m>[22m[39m[90m 114 |[39m       [33m<[39m[33m/[39m[33mTheme[39m[33m>[39m
+ [90m     |[39m       [31m[1m^[22m[39m
+ [90m 115 |[39m     )[33m;[39m
+ [90m 116 |[39m   }
+ [90m 117 |[39m[0m
+    at constructor (/home/user/node_modules/@babel/parser/lib/index.js:365:19)
+    at TypeScriptParserMixin.raise (/home/user/node_modules/@babel/parser/lib/index.js:6616:19)
+    at TypeScriptParserMixin.jsxParseElementAt (/home/user/node_modules/@babel/parser/lib/index.js:4754:18)
+    at TypeScriptParserMixin.jsxParseElement (/home/user/node_modules/@babel/parser/lib/index.js:4761:17)
+    at TypeScriptParserMixin.parseExprAtom (/home/user/node_modules/@babel/parser/lib/index.js:4771:19)
+    at TypeScriptParserMixin.parseExprSubscripts (/home/user/node_modules/@babel/parser/lib/index.js:11098:23)
+    at TypeScriptParserMixin.parseUpdate (/home/user/node_modules/@babel/parser/lib/index.js:11083:21)
+    at TypeScriptParserMixin.parseMaybeUnary (/home/user/node_modules/@babel/parser/lib/index.js:11063:23)
+    at TypeScriptParserMixin.parseMaybeUnary (/home/user/node_modules/@babel/parser/lib/index.js:9854:18)
+    at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/home/user/node_modules/@babel/parser/lib/index.js:10916:61)
+    at TypeScriptParserMixin.parseExprOps (/home/user/node_modules/@babel/parser/lib/index.js:10921:23)
+    at TypeScriptParserMixin.parseMaybeConditional (/home/user/node_modules/@babel/parser/lib/index.js:10898:23)
+    at TypeScriptParserMixin.parseMaybeAssign (/home/user/node_modules/@babel/parser/lib/index.js:10848:21)
+    at /home/user/node_modules/@babel/parser/lib/index.js:9792:39
+    at TypeScriptParserMixin.tryParse (/home/user/node_modules/@babel/parser/lib/index.js:6924:20)
+    at TypeScriptParserMixin.parseMaybeAssign (/home/user/node_modules/@babel/parser/lib/index.js:9792:18)
+    at /home/user/node_modules/@babel/parser/lib/index.js:10817:39
+    at TypeScriptParserMixin.allowInAnd (/home/user/node_modules/@babel/parser/lib/index.js:12443:12)
+    at TypeScriptParserMixin.parseMaybeAssignAllowIn (/home/user/node_modules/@babel/parser/lib/index.js:10817:17)
+    at TypeScriptParserMixin.parseMaybeAssignAllowInOrVoidPattern (/home/user/node_modules/@babel/parser/lib/index.js:12510:17)
+    at TypeScriptParserMixin.parseParenAndDistinguishExpression (/home/user/node_modules/@babel/parser/lib/index.js:11692:28)
+    at TypeScriptParserMixin.parseExprAtom (/home/user/node_modules/@babel/parser/lib/index.js:11348:23)
+    at TypeScriptParserMixin.parseExprAtom (/home/user/node_modules/@babel/parser/lib/index.js:4776:20)
+    at TypeScriptParserMixin.parseExprSubscripts (/home/user/node_modules/@babel/parser/lib/index.js:11098:23)
+    at TypeScriptParserMixin.parseUpdate (/home/user/node_modules/@babel/parser/lib/index.js:11083:21)
+    at TypeScriptParserMixin.parseMaybeUnary (/home/user/node_modules/@babel/parser/lib/index.js:11063:23)
+    at TypeScriptParserMixin.parseMaybeUnary (/home/user/node_modules/@babel/parser/lib/index.js:9854:18)
+    at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/home/user/node_modules/@babel/parser/lib/index.js:10916:61)
+    at TypeScriptParserMixin.parseExprOps (/home/user/node_modules/@babel/parser/lib/index.js:10921:23)
+    at TypeScriptParserMixin.parseMaybeConditional (/home/user/node_modules/@babel/parser/lib/index.js:10898:23)
+    at TypeScriptParserMixin.parseMaybeAssign (/home/user/node_modules/@babel/parser/lib/index.js:10848:21)
+    at TypeScriptParserMixin.parseMaybeAssign (/home/user/node_modules/@babel/parser/lib/index.js:9803:20)
+    at TypeScriptParserMixin.parseExpressionBase (/home/user/node_modules/@babel/parser/lib/index.js:10801:23)
+    at /home/user/node_modules/@babel/parser/lib/index.js:10797:39
+    at TypeScriptParserMixin.allowInAnd (/home/user/node_modules/@babel/parser/lib/index.js:12438:16)
+    at TypeScriptParserMixin.parseExpression (/home/user/node_modules/@babel/parser/lib/index.js:10797:17)
+    at TypeScriptParserMixin.parseReturnStatement (/home/user/node_modules/@babel/parser/lib/index.js:13159:28)
+    at TypeScriptParserMixin.parseStatementContent (/home/user/node_modules/@babel/parser/lib/index.js:12815:21)
+    at TypeScriptParserMixin.parseStatementContent (/home/user/node_modules/@babel/parser/lib/index.js:9525:18)
+    at TypeScriptParserMixin.parseStatementLike (/home/user/node_modules/@babel/parser/lib/index.js:12784:17)
+    at TypeScriptParserMixin.parseStatementListItem (/home/user/node_modules/@babel/parser/lib/index.js:12764:17)
+    at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/home/user/node_modules/@babel/parser/lib/index.js:13333:61)
+    at TypeScriptParserMixin.parseBlockBody (/home/user/node_modules/@babel/parser/lib/index.js:13326:10)
+    at TypeScriptParserMixin.parseBlock (/home/user/node_modules/@babel/parser/lib/index.js:13314:10)
+    at TypeScriptParserMixin.parseStatementContent (/home/user/node_modules/@babel/parser/lib/index.js:12875:21)
+    at TypeScriptParserMixin.parseStatementContent (/home/user/node_modules/@babel/parser/lib/index.js:9525:18)
+    at TypeScriptParserMixin.parseStatementLike (/home/user/node_modules/@babel/parser/lib/index.js:12784:17)
+    at TypeScriptParserMixin.parseStatementOrSloppyAnnexBFunctionDeclaration (/home/user/node_modules/@babel/parser/lib/index.js:12774:17)
+    at TypeScriptParserMixin.parseIfStatement (/home/user/node_modules/@babel/parser/lib/index.js:13147:28)
+    at TypeScriptParserMixin.parseStatementContent (/home/user/node_modules/@babel/parser/lib/index.js:12813:21)
